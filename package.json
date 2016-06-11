@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Tim Hacker's version of Starter kit for React and Redux Pluralsight course - originally by Cory House",
   "scripts": {
+    "start": "babel-node tools/srcServer.js"
   },
   "author": "Tim Hacker",
   "license": "MIT",

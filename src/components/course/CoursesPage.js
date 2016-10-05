@@ -53,7 +53,7 @@ CoursesPage.propTypes = {
   actions: React.PropTypes.object.isRequired
 };
 
-function mapStateToProps(state, ownProps) {
+function mapStateToProps(state) {
   return {
     courses: state.courses
   };

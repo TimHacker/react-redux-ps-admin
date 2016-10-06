@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as courseActions from '../../actions/courseActions';
@@ -23,8 +23,8 @@ class CoursesPage extends React.Component {
 }
 
 CoursesPage.propTypes = {
-  courses: React.PropTypes.array.isRequired,
-  actions: React.PropTypes.object.isRequired
+  courses: PropTypes.array.isRequired,
+  actions: PropTypes.object.isRequired
 };
 
 function mapStateToProps(state) {
